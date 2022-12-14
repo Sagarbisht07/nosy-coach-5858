@@ -124,7 +124,7 @@
   }
   .middle{
     height: auto;
-    width: 85%;
+    width: 80%;
     border: 1px solid  white;
     margin: auto;
     margin-top: 10px;
@@ -134,27 +134,30 @@
   }
   .middle_bottom{
     height: auto;
-    width: 85%;
+    width: 80%;
     border: 1px solid white;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(1,1fr);
+    text-align: center;
   }
   .middle_bottom1{
     border: 1px solid white;
     height: auto;
     display: flex;
     justify-content: space-evenly;
-    gap: 5px;
-    
+    gap: 10px;
+    width: 100%;
+   
   }
  .middle_bottom2{
     height: auto;
     border: 1px solid white;
     display: flex;
     justify-content: space-evenly;
-    gap: 5px;
-    margin-top: 5px;
+    gap: 10px;
+    
+    width: 100%;
   }
   .middle_bottom_1_1{
     height: auto;
@@ -162,6 +165,7 @@
     border: 1px solid white;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
   }
   .middle_bottom_1_2{
     height: auto;
@@ -169,6 +173,7 @@
     border: 1px solid white;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
   }
   .middle_bottom_1_3{
     height: auto;
@@ -176,6 +181,7 @@
     border: 1px solid white;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
   }
   .middle_bottom_1_4{
     height: auto;
@@ -183,6 +189,7 @@
     border: 1px solid white;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
   }
   .middle_bottom_2_1{
     height: auto;
@@ -190,6 +197,7 @@
     border: 1px solid white;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
   }
   .middle_bottom_2_2{
     height: auto;
@@ -197,6 +205,7 @@
     border: 1px solid white;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
   }
   .middle_bottom_2_3{
     height: auto;
@@ -204,6 +213,7 @@
     border: 1px solid white;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
   }
   .middle_bottom_2_4{
     height: auto;
@@ -211,6 +221,7 @@
     border: 1px solid white;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
   }
 .middle_bottom img{
     text-align: center;
@@ -222,18 +233,87 @@
    
 }
 .middle_bottom h4{
-color: rgb(249, 171, 26);
+color: black;
 text-align: right;
 }
 .middle_bottom h5{
    text-align: right;
     }
-    .button_middle .know{
+.button_middle .know{
        border: none;
        background-color: white;
-       
+       margin-right: 30px;
     }
-    .add{
+.add{
         background-color: red;
         color: white;
     }
+.button_couponcode{
+    height: 40px;
+    width: auto;
+    border: 1px solid red;
+    text-align: center;
+    background-color: red;
+    color: whitesmoke;
+}
+.footer{
+    height: 350px;
+    width: auto;
+    border: 1px solid red;
+}
+.button_email:hover {
+    cursor: pointer;
+    color:white;
+  }
+  .button_number:hover{
+    cursor: pointer;
+    color: white;
+  }
+  .middle_bottom button:hover{
+    cursor: pointer;
+    color: lightskyblue;
+  }
+  .middle_bottom h4:hover{
+    cursor: pointer;
+   
+  }
+  .middle_bottom button{
+    border-radius: 3px;
+    border: none;
+  }
+  .footer{
+    background-color: rgb(38, 118, 143);
+  }
+ .middle_bottom1{
+    margin-bottom: 1.3rem;
+ }
+ .middle_bottom2{
+    margin-bottom: 2rem;
+ }
+ .middle_bottom img{
+    height: 100px;
+ }
+ .middle_bottom_1_1 h4{
+    margin-right: 20px;
+ }
+ .middle_bottom_1_2 h4{
+    margin-right: 20px;
+ }
+ .middle_bottom_1_3 h4{
+    margin-right: 20px;
+ }
+ .middle_bottom_1_4 h4{
+    margin-right: 20px;
+ }
+ .middle_bottom_2_1 h4{
+    margin-right: 20px;
+ }
+ .middle_bottom_2_2 h4{
+    margin-right: 20px;
+ }
+ .middle_bottom_2_3 h4{
+    margin-right: 20px;
+ }
+ .middle_bottom_2_4 h5{
+    margin-right: 20px;
+ }
