@@ -1,0 +1,319 @@
+#mini-navbar {
+    height: 70px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    display: flex;
+    justify-content: space-between;
+  }
+  #mini-navbar > div {
+    height: 100%;
+    width: 15%;
+    /* border: 1px solid red; */
+  }
+  .left {
+    display: flex;
+    width: 5%;
+  }
+  .left a {
+    color: black;
+  }
+  .left > div {
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid green; */
+  }
+  .logo img {
+    width: 80%;
+    padding-top: 10px;
+  }
+  .hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+  }
+  .hamburger:hover {
+    background-color: rgb(237, 234, 234);
+    border-radius: 50%;
+  }
+  .right {
+    display: flex;
+  }
+  .right a {
+    color: black;
+  }
+  .right > div {
+    width: 50%;
+    height: 100%;
+  }
+  .signinbut {
+    display: block;
+    margin: auto;
+    color: #fff;
+    background-color: #df1e2e;
+    box-shadow: 0px 1px 5px 0px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%),
+      0px 3px 1px -2px rgb(0 0 0 / 12%);
+    padding: 6px 16px;
+    font-size: 0.875rem;
+    min-width: 64px;
+    box-sizing: border-box;
+  
+    line-height: 1.75;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    border-radius: 4px;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 18px;
+    margin-left: -18px;
+  }
+  .signinbut:hover {
+    cursor: pointer;
+    background-color: #9b1f29;
+  }
+  .materialsIcon {
+    font-family: "Material Icons";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased;
+    margin-right: 17px;
+  }
+  .materialsIcon:hover {
+    background-color: rgb(237, 234, 234);
+    border-radius: 100%;
+  }
+  .check_email_mobile{
+    height: 30px;
+    width: auto;
+    border: 1px solid red;
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding-bottom: 10px;
+  }
+  .button_email{
+    border: none;
+    background-color: red;
+    color: white;
+  }
+  .button_number{
+    border: none;
+    background-color: red;
+    color: white;
+  }
+  .are_you_doing{
+    background-color: #023134e8;
+    height: 250px;
+    width: auto;
+    border: 1px solid rgb(193, 147, 10);
+  }
+  .img_for_doing{
+    text-align: center;
+  }
+  .middle{
+    height: auto;
+    width: 80%;
+    border: 1px solid  white;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .certified_online{
+    color: grey;
+  }
+  .middle_bottom{
+    height: auto;
+    width: 80%;
+    border: 1px solid white;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    text-align: center;
+  }
+  .middle_bottom1{
+    border: 1px solid white;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    width: 100%;
+   
+  }
+ .middle_bottom2{
+    height: auto;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    
+    width: 100%;
+  }
+  .middle_bottom_1_1{
+    height: auto;
+    width: 23%;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+  }
+  .middle_bottom_1_2{
+    height: auto;
+    width: 23%;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+  }
+  .middle_bottom_1_3{
+    height: auto;
+    width: 23%;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+  }
+  .middle_bottom_1_4{
+    height: auto;
+    width: 23%;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+  }
+  .middle_bottom_2_1{
+    height: auto;
+    width: 23%;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+  }
+  .middle_bottom_2_2{
+    height: auto;
+    width: 23%;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+  }
+  .middle_bottom_2_3{
+    height: auto;
+    width: 23%;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+  }
+  .middle_bottom_2_4{
+    height: auto;
+    width: 23%;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+  }
+.middle_bottom img{
+    text-align: center;
+    padding-left: 10px;
+}
+.button_middle{
+    display: flex;
+    justify-content: flex-end;
+   
+}
+.middle_bottom h4{
+color: black;
+text-align: right;
+}
+.middle_bottom h5{
+   text-align: right;
+    }
+.button_middle .know{
+       border: none;
+       background-color: white;
+       margin-right: 30px;
+    }
+.add{
+        background-color: red;
+        color: white;
+    }
+.button_couponcode{
+    height: 40px;
+    width: auto;
+    border: 1px solid red;
+    text-align: center;
+    background-color: red;
+    color: whitesmoke;
+}
+.footer{
+    height: 350px;
+    width: auto;
+    border: 1px solid red;
+}
+.button_email:hover {
+    cursor: pointer;
+    color:white;
+  }
+  .button_number:hover{
+    cursor: pointer;
+    color: white;
+  }
+  .middle_bottom button:hover{
+    cursor: pointer;
+    color: lightskyblue;
+  }
+  .middle_bottom h4:hover{
+    cursor: pointer;
+   
+  }
+  .middle_bottom button{
+    border-radius: 3px;
+    border: none;
+  }
+  .footer{
+    background-color: rgb(38, 118, 143);
+  }
+ .middle_bottom1{
+    margin-bottom: 1.3rem;
+ }
+ .middle_bottom2{
+    margin-bottom: 2rem;
+ }
+ .middle_bottom img{
+    height: 170px;
+ }
+ .middle_bottom_1_1 h4{
+    margin-right: 20px;
+ }
+ .middle_bottom_1_2 h4{
+    margin-right: 20px;
+ }
+ .middle_bottom_1_3 h4{
+    margin-right: 20px;
+ }
+ .middle_bottom_1_4 h4{
+    margin-right: 20px;
+ }
+ .middle_bottom_2_1 h4{
+    margin-right: 20px;
+ }
+ .middle_bottom_2_2 h4{
+    margin-right: 20px;
+ }
+ .middle_bottom_2_3 h4{
+    margin-right: 20px;
+ }
+ .middle_bottom_2_4 h5{
+    margin-right: 20px;
+ }
