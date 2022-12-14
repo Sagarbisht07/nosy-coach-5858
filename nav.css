@@ -1,0 +1,97 @@
+#mini-navbar {
+  height: 70px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  display: flex;
+  justify-content: space-between;
+}
+#mini-navbar > div {
+  height: 100%;
+  width: 15%;
+  /* border: 1px solid red; */
+}
+.left {
+  display: flex;
+  width: 5%;
+}
+.left a {
+  color: black;
+}
+.left > div {
+  height: 100%;
+  width: 50%;
+  /* border: 1px solid green; */
+}
+.logo img {
+  width: 80%;
+  padding-top: 10px;
+}
+.hamburger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.hamburger:hover {
+  background-color: rgb(237, 234, 234);
+  border-radius: 50%;
+}
+.right {
+  display: flex;
+}
+.right a {
+  color: black;
+}
+.right > div {
+  width: 50%;
+  height: 100%;
+}
+.signinbut {
+  display: block;
+  margin: auto;
+  color: #fff;
+  background-color: #df1e2e;
+  box-shadow: 0px 1px 5px 0px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%),
+    0px 3px 1px -2px rgb(0 0 0 / 12%);
+  padding: 6px 16px;
+  font-size: 0.875rem;
+  min-width: 64px;
+  box-sizing: border-box;
+
+  line-height: 1.75;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  border-radius: 4px;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 18px;
+  margin-left: -18px;
+}
+.signinbut:hover {
+  cursor: pointer;
+  background-color: #9b1f29;
+}
+.materialsIcon {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+  margin-right: 17px;
+}
+.materialsIcon:hover {
+  background-color: rgb(237, 234, 234);
+  border-radius: 100%;
+}
+/* --------------------- NAV-END --------------- */
