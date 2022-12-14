@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mans Product</title>
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+     #example > div.sc-fOKMvo.dHNwyM > section.sc-gipzik.iNznVK > div.sc-csuQGl.isjeEw > h5{
+        /* -webkit-font-smoothing: antialiased; */
+    text-align: center;
+    box-sizing: inherit;
+    margin: 0;
+    display: block;
+    overflow-wrap: break-word;
+    font-size: 1.5rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.33;
+    letter-spacing: 0em;
+    color: #fff;
+    font-weight: 100;
+     }
+   
+    </style>
+  </head>
+  
+  <body>
+    <h5 class="jss190 jss206 jss182">Let’s Get You <span> Ready</span></h5>
+
+  <script>
+    let cartIcon = document.querySelector("#cart-icon");
+    let cart = document.querySelector(".cart");
+    let closecart = document.querySelector("#close-cart");
+
+    // open cart
+    cartIcon.onclick = () => {
+      cart.classList.add("active");
+    };
+
+    // closecart
+
+    closecart.onclick = () => {
+      cart.classList.remove("active");
+    };
+  </script>
+</html>
