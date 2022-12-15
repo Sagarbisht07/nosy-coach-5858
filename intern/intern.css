@@ -1,0 +1,48 @@
+*{margin: 0%;}
+body{
+    background-color:  #f5f3f3d2;
+}
+#man{
+    margin-top: 15px;
+    display: flex;
+    border: 1px solid red;
+    margin-right: 120px;
+    margin-left: 120px;
+    
+    
+}
+#part1{
+    border: px solid rgb(24, 202, 39);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+#part1 img{
+    height: 280px;
+    
+
+}
+#part2{
+    border: px solid greenyellow;
+    margin-left:15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background-color:white;
+   
+}
+#intern{
+    margin-top: 20px;
+    border: black solid px;
+    display: flex;
+    
+}
+.img2{
+    width: 100px;
+    height: 50px;
+    border: solid 1px royalblue;
+}
+.para{
+    border: px solid rgb(24, 202, 39);
+    width: 300px;
+    margin-left: 50px;
+}
+.week{
+    
+margin-left:220px ;}
