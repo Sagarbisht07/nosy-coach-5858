@@ -18,7 +18,7 @@
   width: 360px;
   min-height: 100vh;
   padding: 20px;
-  background: var(--bg-color);
+  background:#fff;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   transition: 0.3s;
  
@@ -26,19 +26,16 @@
 
 }
 
-
 .cart.active{
   left: 0;
   
 }
-
-
 #close-cart{
- /* position: absolute; */
+
 
  right: 0.8rem;
  font-size: 2rem;
- color: var(--text-color);
+ color:#171427;
  cursor: pointer;
  padding: 0.2rem;
  transition: 0.3s;
@@ -51,11 +48,14 @@
   top: 0;
   position: fixed;
   height: 4.5rem;
-  width: 100%;
+  width: 103%;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   display: flex;
   justify-content: space-between;
   background-color: #fff;
+  margin-left: -1rem;
+  margin-right: 1rem;
+  
  
 }
 #mini-navbar > div {
@@ -65,6 +65,7 @@
 }
 .listmenu{
   padding: 20px;
+    background-color: #fff;
 
 }
 .logo2{
@@ -79,15 +80,20 @@
 }
 
 .logo img {
-  width: 50%;
- margin-left: -36rem;
- padding-top: .7rem;
+  width: 46%;
+  margin: -5rem;
+  margin-left: 4rem;
+  margin-top: -7.5rem;
 }
 .right {
   display: flex;
+  margin-left: 93rem; 
+  
 }
 .right a {
   color: black;
+    margin-top: -4.2rem; 
+    margin-left: -11rem; 
 }
 .right > div {
   width: 50%;
@@ -100,9 +106,9 @@
   background-color: #df1e2e;
   box-shadow: 0px 1px 5px 0px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%),
     0px 3px 1px -2px rgb(0 0 0 / 12%);
-  padding: 6px 16px;
+  padding: 6px 25px;
   font-size: 0.875rem;
-  min-width: 64px;
+  min-width: 69px;
   box-sizing: border-box;
 
   line-height: 1.75;
@@ -112,8 +118,8 @@
   letter-spacing: 0.02857em;
   text-transform: uppercase;
   border: none;
-  margin-top: 18px;
-  margin-left: -18px;
+  margin-top: -3.5rem;
+  
 }
 .signinbut:hover {
   cursor: pointer;
@@ -135,7 +141,8 @@
   direction: ltr;
   -webkit-font-feature-settings: "liga";
   -webkit-font-smoothing: antialiased;
-  margin-right: 17px;
+  margin-left: 2rem;
+  
 }
 .materialsIcon:hover {
   background-color: rgb(237, 234, 234);
@@ -145,11 +152,12 @@
 
 /* search bar start here */
 .banner{
- width: 100%;
- height: 23rem;
-background: url(https://assets.interntheory.com/creative/Homepage-Banner.png);
+ width: 102%;
+ height: 40rem;
+ margin-left: -0.5rem;
+background: url(Banner.png);
 background-repeat: no-repeat;
-
+margin-top: 4.7rem;;
 
 }
 
@@ -167,9 +175,8 @@ background-repeat: no-repeat;
     letter-spacing: 0em;
     font-weight: 100;
     color: #fff;
-    margin-top: -16rem;
-   
  
+    margin-top: -35rem;
 }
 .search h5 > span{
       -webkit-font-smoothing: antialiased;
@@ -201,3 +208,379 @@ background-repeat: no-repeat;
     font-weight: 100;
 }
 
+/* <!-- search bar end here --> */
+
+/* <!-- List of company start here --> */
+.companylist{
+  display: flex;
+  height: 100px;
+  width: 90%;
+  justify-content: space-around;
+}
+
+.companytext{
+  margin-left:6rem;
+}
+
+.companytext>h1{
+  -webkit-font-smoothing: antialiased;
+  box-sizing: inherit;
+  margin: 0;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.33;
+  font-size: 28px;
+  font-weight: 700;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 5px;
+  letter-spacing: 0.015em;
+  padding-bottom: 3px;
+  margin-top: 30rem;
+ 
+}
+
+.companytext span{
+-webkit-font-smoothing: antialiased;
+overflow-wrap: break-word;
+font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+line-height: 1.33;
+font-size: 28px;
+font-weight: 700;
+letter-spacing: 0.015em;
+box-sizing: inherit;
+color: #DF1E2E;
+
+}
+
+.companytext>p{
+  -webkit-font-smoothing: antialiased;
+  box-sizing: inherit;
+  margin: 0;
+  display: block;
+  overflow-wrap: break-word;
+  color: #3C4858;
+  font-size: 0.875rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.01071em;
+}
+
+.companyimg{
+ width: 65%;
+ margin-top: 20rem;
+}
+.imgs>img{
+  width: 100%;
+  margin-left: 3rem;
+  margin-top: 2rem;
+
+}
+
+/* <!-- List of company End here --> */
+
+/* <!-- List of  WORK EXPERIENCE start here --> */
+
+.worktext h5{
+  -webkit-font-smoothing: antialiased;
+  box-sizing: inherit;
+  margin: 0;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.33;
+  letter-spacing: 0em;
+  font-size: 35px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.work{
+  width: 102%;
+  margin-top: 40rem;
+  background-color: rgb(247, 252, 254);
+  padding-top: 5rem;
+ 
+}
+.worktext span{
+-webkit-font-smoothing: antialiased;
+overflow-wrap: break-word;
+font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+line-height: 1.33;
+letter-spacing: 0em;
+font-size: 35px;
+text-align: center;
+font-weight: 700;
+text-transform: uppercase;
+box-sizing: inherit;
+color: rgb(221, 31, 45);
+}
+.workimg{
+  width: 85%;
+  margin: auto;
+ 
+}
+
+.workimg img{
+  width: 100%;
+  margin-bottom: 5rem;
+ 
+}
+/* <!-- List of  WORK EXPERIENCE end here --> */
+
+/* <!-- List of  skill start here --> */
+
+.skill{
+background-color: rgb(238, 238, 238);
+padding: 4rem;
+width: 102%;
+margin-left: -1rem;
+}
+
+.skilltext h5{
+  -webkit-font-smoothing: antialiased;
+  box-sizing: inherit;
+  margin: 0;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.33;
+  letter-spacing: 0em;
+  font-size: 35px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  margin-left: -3rem;
+}
+
+.skilltext span{
+  -webkit-font-smoothing: antialiased;
+  overflow-wrap: break-word;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.33;
+  letter-spacing: 0em;
+  font-size: 35px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  box-sizing: inherit;
+  color: rgb(221, 31, 45);
+
+}
+
+.skillimg{
+  width: 90%;
+  margin: auto;
+  margin-right: 2rem;
+}
+
+.skillimg img{
+  width: 95%;
+
+}
+/* <!-- List of  skill end here --> */
+
+
+/* <!-- List of  skill start here --> */
+
+.growth{
+  width: 70%;
+  margin: auto;
+  height: 30rem;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+
+}
+.growthimg img{
+width: 60%;
+
+}
+
+
+.text{
+  margin-left: -4rem;
+}
+.text h1{
+  -webkit-font-smoothing: antialiased;
+  box-sizing: inherit;
+  margin: 0;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.33;
+  font-size: 28px;
+  font-weight: 800;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 5px;
+  letter-spacing: 0.015em;
+  padding-bottom: 3px;
+  margin-top: 7rem;
+  
+}
+.text span{
+  -webkit-font-smoothing: antialiased;
+  overflow-wrap: break-word;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.33;
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 0.015em;
+  box-sizing: inherit;
+  color: #DF1E2E;
+}
+.text p{
+  -webkit-font-smoothing: antialiased;
+  box-sizing: inherit;
+  margin: 0;
+  display: block;
+  overflow-wrap: break-word;
+  color: #3C4858;
+  font-size: 0.875rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.01071em;
+}
+/* <!-- List of  growth end here --> */
+
+/* <!-- List of  slider start here --> */
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 103%;
+  padding: 4rem;
+  margin: auto;
+  margin-top: -5rem;
+  background-color: rgb(238, 238, 238);
+  margin-left: -1rem;
+}
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(181, 176, 176);
+  border-radius: 50%;
+  /* display: inline-block; */
+  /* transition: background-color 0.6s ease; */
+}
+
+/* .active {
+  background-color: white;
+} */
+
+/* Fading animation */
+.fade {
+  
+  transition: transform 1s ease 0s;
+  transform: translateX(calc(21% - 2rem));
+
+  
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+ @media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+} 
+.arrow{
+  font-size: 49px;
+  color: white;
+  box-sizing: inherit;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+.arrow1{
+  font-size: 49px;
+  color: white;
+  box-sizing: inherit;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+
+ 
+}
+/* <!-- List of  slider end  here --> */
+
+/* <!-- List of  Foter start  here --> */
+
+.foter{
+  width: 102%;
+  margin-left: -1rem;
+  padding: 2rem;
+background-color: rgb(68, 100, 120);
+
+}
+.foter img{
+  width: 90%;
+  margin-left: 3rem;
+  margin-top: 1rem;
+
+}
+/* <!-- List of  Foter end here --> */
+
+
+/* <!-- nev bar menu start here --> */
+
+.menulist{
+ margin-left: -15rem;
+ 
+}
+
+.menulist i{
+  font-size: 2rem;
+  margin-left: -1.2rem;
+  color: rgb(68, 100, 120);
+  padding-right:2rem ;
+}
+
+.menuoption{
+  font-size: 1.5rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  text-decoration: none;
+  color: #171427;
+  font-weight: 600;
+}
+.hr{
+  height: 2px;
+ margin-left: -3rem;
+ width: 163%;
+}
+
+
+
+
+
+
+
+
+
+/* <!-- nev bar menu start here --> */
