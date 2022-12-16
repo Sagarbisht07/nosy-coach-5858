@@ -104,13 +104,13 @@ server.use((req, res, next) => {
 server.post("/user/register", (req, res) => {
   if (
     !req.body ||
-    !req.body.username ||
+    !req.body.mobilenumber,
     !req.body.password ||
     !req.body.email
   ) {
     return res
       .status(400)
-      .send("Bad request, requires username, password & email.");
+      .send("Bad request, requires firstname, password & email.");
   }
 
   db.read();
@@ -123,12 +123,16 @@ server.post("/user/register", (req, res) => {
   const hashedPassword = bcrypt.hashSync(req.body.password, 10);
   const newId = largestId + 1;
   const newUserData = {
-    username: req.body.username,
-    password: hashedPassword,
-    email: req.body.email,
     firstname: req.body.firstname || "",
     lastname: req.body.lastname || "",
-    avatar: req.body.avatar || "",
+    email: req.body.email,
+    password: hashedPassword,
+    mobilenumber: req.body.mobilenumber,
+    city:req.body.cityname,
+    preferences:req.body.preferences,
+    findus:req.body.network,
+    lookingfor:req.body.jobsintern,
+    affiliate:req.body.affiliate || "",
     createdAt: Date.now(),
     id: newId,
   };
@@ -142,17 +146,17 @@ server.post("/user/register", (req, res) => {
 
 // login/sign in logic
 server.post("/user/login", (req, res) => {
-  if (!req.body || !req.body.username || !req.body.password) {
+  if (!req.body || !req.body.email || !req.body.password) {
     return res
       .status(400)
-      .send("Bad request, requires username & password both.");
+      .send("Bad request, requires email & password both.");
   }
 
   db.read();
   const users = db.data.users;
-  const user = users.find((u) => u.username === req.body.username);
+  const user = users.find((u) => u.email === req.body.email);
   if (user == null) {
-    return res.status(400).send(`Cannot find user: ${req.body.username}`);
+    return res.status(400).send(`Cannot find user: ${req.body.email}`);
   }
 
   if (bcrypt.compareSync(req.body.password, user.password)) {

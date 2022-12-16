@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="student-Register.css">
+    <link rel="stylesheet" href="styles\Student-Register.css">
 </head>
 <body>
     <div class="container">
@@ -15,7 +15,7 @@
                     <h5>Register Candidate</h5>
                     <h6>
                         Already have an account?
-                        <a href="To-Login-student">
+                        <a href="Student-Login.html">
                             Sign in
                         </a>
                     </h6>
@@ -56,6 +56,51 @@
                         <div class="input-field">
                             <input id="mobilenumber" name="userpasssignup" required="" type="number" placeholder="Enter Mobile Number" oninvalid="this.setCustomValidity('Required')" oninput="setCustomValidity('')">
                         </div>
+                        <div class="input-field">
+                            <select name="cities" class="select-css" id="cityname" required>
+                                <option value="">Select city</option>
+                                <option value="Mumbai">Mumbai</option>
+                                <option value="Bengaluru">Bengaluru</option>
+                                <option value="Delhi">Delhi</option>
+                                <option value="Kolkata">KolKata</option>
+                                <option value="Chennai">Chennai</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                            <select name="industry" class="select-css" id="preferences" required>
+                                <option value="">Preferences Select one *</option>
+                                <option value="Adversting">Adversting</option>
+                                <option value="Animation">Animation</option>
+                                <option value="Bussiness Development">Bussiness Development</option>
+                                <option value="Content Writing">Content Writing</option>
+                                <option value="Graphic Desigining">Graphic Desigining</option>
+                                <option value="Others">Others</option>
+                                <option value="Software Development">Software Development</option>
+                                <option value="Web Design And Development">Web Design And Development</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                            <select name="findus" class="select-css" id="network" required>
+                                <option value="">How did you find us? *</option>
+                                <option value="From A Friend">From A Friend</option>
+                                <option value="Google Search Result">Google Search Result</option>
+                                <option value="Google Ads">Google Ads</option>
+                                <option value="Bing/Yahoo Search Result">Bing/Yahoo Search Result</option>
+                                <option value="Social Media">Social Media</option>
+                                <option value="Others">Others</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                            <select name="lookingfor" class="select-css" id="jobsintern" required>
+                                <option value="">What are you looking for? *</option>
+                                <option value="Internships">Internships</option>
+                                <option value="Jobs">Jobs</option>
+                                <option value="Both">Both</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                            <input id="affiliate" name="usersignup" required="" type="text" placeholder="Affiliate Code(if any)">
+                        </div>
                         <div class="input-field submit">
                             <input type="submit" value="next">
                         </div>
@@ -66,3 +111,5 @@
     </div>
 </body>
 </html>
+
+<script src="script\Student-Register.js" type="module"></script>

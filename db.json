@@ -8,6 +8,62 @@
       "lastname": "D",
       "createdAt": 1670638319356,
       "id": 1
+    },
+    {
+      "firstname": "kamalesh",
+      "lastname": "dsf",
+      "email": "ada@gmail.com",
+      "password": "$2b$10$M3pM1ABeIBvFH9faDSRQXemgJT97pNa9qcTORu2/ux8oOHcQtXKYq",
+      "mobilenumber": "9678678",
+      "city": "Chennai",
+      "preferences": "Others",
+      "findus": "Google Ads",
+      "lookingfor": "Jobs",
+      "affiliate": "fdg5",
+      "createdAt": 1671194138525,
+      "id": 2
+    },
+    {
+      "firstname": "kamalesh",
+      "lastname": "d",
+      "email": "kamalesh@gmail.com",
+      "password": "$2b$10$w7pfUesxAh9hRaIhwjb5cO2XXPemf5kN1GTlauBpVT98zwIjUZxEW",
+      "mobilenumber": "99873474",
+      "city": "Mumbai",
+      "preferences": "Web Design And Development",
+      "findus": "Social Media",
+      "lookingfor": "Both",
+      "affiliate": "213fgh",
+      "createdAt": 1671203092410,
+      "id": 3
+    },
+    {
+      "firstname": "kamalesh",
+      "lastname": "d",
+      "email": "kama@gmail.com",
+      "password": "$2b$10$/diVu6dEPCs0B9UnPoB89uZvWM1dMjZJAWrtyOUYBz5LtcT6m2Xn.",
+      "mobilenumber": "9078214",
+      "city": "Kolkata",
+      "preferences": "Content Writing",
+      "findus": "Bing/Yahoo Search Result",
+      "lookingfor": "Internships",
+      "affiliate": "2321gh",
+      "createdAt": 1671203776867,
+      "id": 4
+    },
+    {
+      "firstname": "ashton",
+      "lastname": "killer",
+      "email": "astonkiller@gmail.com",
+      "password": "$2b$10$uHy.fsz4TKWzz8lqH9VLwOHDxiJqBxPnz49IP0DVVVbfJOQdOnRUu",
+      "mobilenumber": "987654321",
+      "city": "Delhi",
+      "preferences": "Software Development",
+      "findus": "From A Friend",
+      "lookingfor": "Jobs",
+      "affiliate": "fgdg",
+      "createdAt": 1671203903107,
+      "id": 5
     }
   ]
 }
