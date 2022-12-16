@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="student-Register.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-bgimg">
+            <div class="register-box">
+                <div class="register-top">
+                    <h5>Register Candidate</h5>
+                    <h6>
+                        Already have an account?
+                        <a href="To-Login-student">
+                            Sign in
+                        </a>
+                    </h6>
+                    <div class="register-tohire">
+                        <p>
+                            If you are a company looking to hire interns, please register as a company by clicking 
+                            <a href="login-student">
+                                here
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div id="login-social">
+                    <img src="https://www.interntheory.com/assets/iconsLogos/facebook-circular-logo.svg" alt="">
+                        <a>Register with FacebooK</a>
+                </div>
+                <div id="login-social-sec">
+                    <img src="https://www.interntheory.com/assets/iconsLogos/googlelogo.svg" alt="">
+                        <a>Register with Google</a>
+                </div> 
+                <div id="or">
+                    OR
+                </div>
+                <div class="form signup">
+                    <form>
+                        <div class="input-field">
+                            <input id="firstname" name="usersignup" required="" type="text" placeholder="Enter First Name" oninvalid="this.setCustomValidity('Required')" oninput="setCustomValidity('')">
+                        </div>
+                        <div class="input-field">
+                            <input  id="lastname"name="usersignup" required="" type="text" placeholder="Enter Last Name" oninvalid="this.setCustomValidity('Required')" oninput="setCustomValidity('')">
+                        </div>
+                        <div class="input-field">
+                            <input id="email" name="usersignup" required="" type="email" placeholder="Enter Email" oninvalid="this.setCustomValidity('Required')" oninput="setCustomValidity('')">
+                        </div>
+                        <div class="input-field">
+                            <input id="password" name="usersignup" required="" type="password" placeholder="Enter Password" oninvalid="this.setCustomValidity('Required')" oninput="setCustomValidity('')">
+                        </div>
+                        <div class="input-field">
+                            <input id="mobilenumber" name="userpasssignup" required="" type="number" placeholder="Enter Mobile Number" oninvalid="this.setCustomValidity('Required')" oninput="setCustomValidity('')">
+                        </div>
+                        <div class="input-field submit">
+                            <input type="submit" value="next">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

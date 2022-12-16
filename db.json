@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "username": "kamalesh",
+      "password": "$2b$10$YdB3prT7EjOiPpSo8Qox.OhBYi0F6ocEw3lET77VZeN97FYeZ6KVq",
+      "email": "kamalesh@gmail.com",
+      "firstname": "kamalesh",
+      "lastname": "D",
+      "createdAt": 1670638319356,
+      "id": 1
+    }
+  ]
+}
