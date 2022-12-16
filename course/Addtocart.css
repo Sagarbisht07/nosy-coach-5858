@@ -94,19 +94,35 @@
     background-color: rgb(237, 234, 234);
     border-radius: 100%;
   }
-.display_addtocart_item{
-    height: 200px;
+  .check_email_mobile{
+    height: 30px;
     width: auto;
     border: 1px solid red;
-}
-.display_addtocart_item div{
-    height: 100px;
-    width: 40%;
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding-bottom: 10px;
+  }
+  .button_email{
+    border: none;
+    background-color: red;
+    color: white;
+  }
+  .button_number{
+    border: none;
+    background-color: red;
+    color: white;
+  }
+.display_addtocart_item{
+    height: 300px;
+    width: 60%;
     border: 1px solid red;
+    margin: auto;
+    margin-top: 20px;
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 10px;
+    justify-content: space-evenly;
 }
+
 .display_addtocart_item div img{
     height: 100px;
     width: auto;
@@ -114,3 +130,40 @@
     display: flex;
     justify-content: space-evenly;
 }
+.display_addtocart_item .rightdiv{
+    height: 300px;
+    width: 40%;
+    border: 1px solid red;
+}
+.display_addtocart_item .leftdiv{
+    height: 300px;
+    width: 50%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-evenly;
+}
+.display_addtocart_item .leftdiv img{
+margin-top: 20px;
+
+}
+.display_addtocart_item .leftdiv h4{
+    margin-top: 80px;
+    
+}
+ .display_addtocart_item .leftdiv p{
+        margin-top: 100px;
+        
+ }
+.display_addtocart_item .rightdiv input{
+            gap: 5px;
+            margin: auto;
+}
+.footer{
+    height: 350px;
+    width: auto;
+    border: 1px solid red;
+}
+.footer{
+    background-color: rgb(38, 118, 143);
+    margin-top: 20px;
+  }

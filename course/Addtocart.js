@@ -14,17 +14,12 @@ for(let el of addtocart_button){
     })
 }
     getitem.forEach((el)=>{
-        let div=document.createElement("div")
-        
         let img=document.createElement("img")
         img.setAttribute("src",el.img)
         let prname=document.createElement("h4")
-        prname.innerText=el.price
+        prname.innerText=el.product_name
         let prprice=document.createElement("p")
-        prprice.innerText=el.product_name
-        div.append(img,prname,prprice)
-        document.querySelector(".display_addtocart_item").append(div)
+        prprice.innerText=el.price
+        document.querySelector(".leftdiv").append(img,prname,prprice)
+       
     })
-
-
-console.log(getitem)
