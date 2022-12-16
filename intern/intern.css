@@ -127,13 +127,20 @@ body{
 }
 #intern{
     margin-top: 30px;
+    margin-bottom: 30px;
     border: black solid px;
     display: flex;
     
 }
+ a{
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(25, 86, 199);
+ 
+ }
 .img2{
     width: 100px;
-    height: 50px;
+    height: 80px;
     border: solid px royalblue;
     margin-left: 13px;
     margin-top: 20px;
