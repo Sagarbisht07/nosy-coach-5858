@@ -116,29 +116,31 @@
 .display_addtocart_item{
     height: 300px;
     width: 60%;
-    border: 1px solid red;
+    border: 1px solid white;
     margin: auto;
     margin-top: 20px;
     display: flex;
     justify-content: space-evenly;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .display_addtocart_item div img{
     height: 100px;
     width: auto;
-    border: 1px solid red;
+    border: 1px solid white;
     display: flex;
     justify-content: space-evenly;
 }
 .display_addtocart_item .rightdiv{
     height: 300px;
     width: 40%;
-    border: 1px solid red;
+    border: 1px solid white;
+    text-align: center;
 }
 .display_addtocart_item .leftdiv{
     height: 300px;
-    width: 50%;
-    border: 1px solid red;
+    width: 60%;
+    border: 1px solid white;
     display: flex;
     justify-content: space-evenly;
 }
@@ -157,7 +159,9 @@ margin-top: 20px;
 .display_addtocart_item .rightdiv input{
             gap: 5px;
             margin: auto;
-}
+            border: 1px;
+            margin-top: 30px;
+          }
 .footer{
     height: 350px;
     width: auto;
@@ -166,4 +170,17 @@ margin-top: 20px;
 .footer{
     background-color: rgb(38, 118, 143);
     margin-top: 20px;
+  }
+  button{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+  }
+  .button_email:hover {
+    cursor: pointer;
+    color:white;
+  }
+  .button_number:hover{
+    cursor: pointer;
+    color: white;
   }

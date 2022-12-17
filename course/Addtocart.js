@@ -23,3 +23,12 @@ for(let el of addtocart_button){
         document.querySelector(".leftdiv").append(img,prname,prprice)
        
     })
+    document.querySelector(".go").addEventListener("click",()=>{
+        console.log("hi")
+        if(document.querySelector(".coupon").innerText="masai30"){
+        document.querySelector(".total").innerHTML="&#8377 11955"
+        }
+    })
+    document.querySelector(".check").addEventListener("click",()=>{
+        swal("Purchase successfully")
+    })
