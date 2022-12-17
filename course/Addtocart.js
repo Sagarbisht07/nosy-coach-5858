@@ -22,13 +22,14 @@ for(let el of addtocart_button){
         prprice.innerText=el.price
         document.querySelector(".leftdiv").append(img,prname,prprice)
        
+       
     })
     document.querySelector(".go").addEventListener("click",()=>{
-        console.log("hi")
-        if(document.querySelector(".coupon").innerText="masai30"){
+            document.querySelector(".coupon").innerText="masai30"
         document.querySelector(".total").innerHTML="&#8377 11955"
-        }
-    })
-    document.querySelector(".check").addEventListener("click",()=>{
-        swal("Purchase successfully")
+        document.querySelector(".check").addEventListener("click",()=>{
+            swal("Purchase successfully")
+           
+        })
+        
     })

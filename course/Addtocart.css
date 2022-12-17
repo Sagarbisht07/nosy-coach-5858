@@ -160,7 +160,8 @@ margin-top: 20px;
             gap: 5px;
             margin: auto;
             border: 1px;
-            margin-top: 30px;
+            margin-top: 20px;
+          
           }
 .footer{
     height: 350px;
@@ -183,4 +184,13 @@ margin-top: 20px;
   .button_number:hover{
     cursor: pointer;
     color: white;
+  }
+  .check{
+    margin-top: 10px;
+    width: 40%;
+  }
+  .display_addtocart_item .rightdiv .coupon{
+  border: 1px solid black;
+  border-radius: 5px;
+  
   }

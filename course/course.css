@@ -222,10 +222,11 @@
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     text-align: center;
+   
   }
 .middle_bottom img{
     text-align: center;
-    padding-left: 10px;
+    
 }
 .button_middle{
     display: flex;
@@ -314,6 +315,6 @@ text-align: right;
  .middle_bottom_2_3 h4{
     margin-right: 20px;
  }
- .middle_bottom_2_4 h5{
+ .middle_bottom_2_4 h4{
     margin-right: 20px;
  }
