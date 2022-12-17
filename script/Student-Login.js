@@ -20,7 +20,8 @@ async function LoginFunction(event){
       if(login_request.ok){
           let token = await login_request.json();
           sessionStorage.setItem("access_token", token.accessToken);
-          alert("User has been successfully Logged In.");
+          swal("Good job!", "User has been successfully Logged In.", "success");
+        //   alert("User has been successfully Logged In.");
       }else{
           alert("User not found.");
       }

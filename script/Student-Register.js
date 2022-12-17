@@ -24,7 +24,8 @@ async function RegisterFunction(event) {
         body: JSON.stringify(userObj)
       });
       if(register_request.ok){
-          alert("User has been created Sucessfully!!");
+          swal("Good job!", "User has been created Sucessfully!!", "success");
+          // alert("User has been created Sucessfully!!");
           window.location.href = "Student-Login.html";
       }else{
           alert("Bad request has been made.");
