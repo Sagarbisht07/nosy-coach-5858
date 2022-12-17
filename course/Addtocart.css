@@ -194,3 +194,12 @@ margin-top: 20px;
   border-radius: 5px;
   
   }
+i{
+  color: red;
+  margin-top: 10px;
+  size:20px;
+}
+i:hover{
+  cursor: pointer;
+  color: red;
+}

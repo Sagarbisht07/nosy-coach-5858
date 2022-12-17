@@ -33,3 +33,10 @@ for(let el of addtocart_button){
         })
         
     })
+document.querySelector(".leftdiv i").addEventListener("click",()=>{
+    console.log("hi")
+    document.querySelector(".leftdiv").innerHTML="";
+    document.querySelector(".leftdiv").innerHTML="The Course Is Empty";
+    window.location.href="course.html"
+    document.querySelector(".rightdiv").innerHTML=""
+})
