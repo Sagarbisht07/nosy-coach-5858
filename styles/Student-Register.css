@@ -1,0 +1,208 @@
+*{
+    box-sizing: inherit;
+}
+.container-bgimg{
+    margin-top: 80px;
+    background-image: url(https://assets.interntheory.com/creative/Web-Banner.jpg);
+    background-size: cover;
+    min-height: calc(100vh - 50px);
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.register-box{
+    margin: auto;
+    width: 42%;
+    box-shadow: 0px 8px 10px -5px rgb(0 0 0 / 20%), 0px 16px 24px 2px rgb(0 0 0 / 14%), 0px 6px 30px 5px rgb(0 0 0 / 12%);
+    background-color: #fff;
+    box-sizing: border-box;
+    height: 1060px;
+}
+
+.register-top{
+    padding: 30px 30px 0px;
+    width: 100%;
+}
+
+.register-top h5{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1.5rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.33;
+    letter-spacing: 0em;
+    margin: 0;
+}
+
+.register-top h6{
+    margin: 0;
+    margin-bottom: 0.35em;
+    color: #999;
+    font-size: 14px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.75;
+    letter-spacing: 0.00938em;
+}
+
+.register-top a{
+    color: #087CDD;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.register-tohire {
+    border: 1px dashed rgb(239, 147, 154);
+    margin-top: 0px;
+    padding-left: 5px;
+    border-radius: 5px;
+    background: rgb(252, 239, 241);
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.register-tohire p{
+    color: #3C4858;
+    font-size: 0.875rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.01071em;
+}
+
+#login-social{
+    padding: 5px;
+    background: rgb(66, 103, 178);
+    margin-bottom: 10px;
+    width: 92%;
+    margin-left: 30px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+}
+
+#login-social img{
+   width: 25px;
+   background: rgb(255, 255, 255);
+   padding: 3px;
+   border-radius: 4px;
+   margin-right: 230px;
+   margin-left: 5px;
+}
+
+#login-social-sec{
+    padding: 5px;
+    background-color: #087CDD; 
+    width: 92%;
+    margin-left: 30px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+}
+
+#login-social-sec:hover{
+    background:rgb(66, 103, 178);
+}
+
+#login-social-sec img{
+    width: 25px;
+    background: rgb(255, 255, 255);
+    padding: 3px;
+    border-radius: 4px;
+    margin-right: 240px;
+    margin-left: 5px;
+}
+
+#login-social a{
+    font-size: 14px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 550;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+#login-social-sec a{
+    font-size: 14px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 550;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#or{
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.75;
+    letter-spacing: 0.00938em;
+}
+
+.register-box .form{
+    padding-left: 30px;
+    width: 95%;
+}
+
+.form .input-field{
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.input-field input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.input-field .select-css{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.input-field .select-css:is(:focus, :valid){
+    border-bottom-color: rgb(5, 86, 154);;
+}
+
+input,select{
+    font-size: 16px;
+    color: #3C4858;
+}
+
+/* input[type=text], select{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.54); 
+} */
+
+.input-field input:is(:focus, :valid){
+    border-bottom-color: rgb(5, 86, 154);
+}
+
+.form .submit input{
+    color: #DF1E2E;
+    border: 1px solid rgba(223, 30, 46, 0.5);
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: white;
+    transition: all 0.3 ease;
+}
+
+.form .submit:hover{
+    border: 1px solid #DF1E2E;
+    border-radius: 4px;
+}

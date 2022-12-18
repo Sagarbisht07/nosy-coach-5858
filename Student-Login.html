@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles\Student-Login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-bgimg">
+            <div class="register-box">
+                <div class="register-top">
+                    <h6>STUDENT</h6>
+                    <h5>Login</h5>
+                    <div class="register-tohire">
+                        <p>
+                            If you are a company looking to hire interns, please login as a company by clicking
+                            <a href="login-student">
+                                here
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div id="login-social">
+                    <img src="https://www.interntheory.com/assets/iconsLogos/facebook-circular-logo.svg" alt="">
+                        <a>Signin with FacebooK</a>
+                </div>
+                <div id="login-social-sec">
+                    <img src="https://www.interntheory.com/assets/iconsLogos/googlelogo.svg" alt="">
+                        <a>Signin with Google</a>
+                </div> 
+                <div id="or">
+                    OR
+                </div>
+                <div class="form signup">
+                    <form>
+                        <div class="input-field">
+                            <input id="email" name="usersignup" required="" type="email" placeholder="Email/Number" oninvalid="this.setCustomValidity('Required')" oninput="setCustomValidity('')">
+                        </div>
+                        <div class="input-field">
+                            <input  id="password"name="usersignup" required="" type="password" placeholder="Password" oninvalid="this.setCustomValidity('Required')" oninput="setCustomValidity('')">
+                        </div>
+                        <div class="checkbox-text">
+                            <div class="checkbox-content">
+                                <input type="checkbox" id="logcheck">
+                                <label for="logcheck" class="text">Remember Me</label>
+                            </div>
+                            <a href="" class="text">Forgot Password?</a>
+                        </div>
+                        <div class="login-signup">
+                            <span class="text">Don't have an account?
+                                <a href="Student-Register.html" class="text signup-text">Create your account</a>
+                            </span>
+                        </div>
+                        <div class="input-field submit">
+                            <input type="submit" value="Login">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="script\Student-Login.js" type="module"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
