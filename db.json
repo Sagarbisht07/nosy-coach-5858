@@ -64,6 +64,20 @@
       "affiliate": "fgdg",
       "createdAt": 1671203903107,
       "id": 5
+    },
+    {
+      "firstname": "Sagar",
+      "lastname": "bisht",
+      "email": "sagar123@gmail.com",
+      "password": "$2b$10$LemQnZUVS9bpcMpcnwTYjOyhZPn47QRh2vZWsTtVkFrUZziSgVWZ6",
+      "mobilenumber": "9837659778",
+      "city": "Mumbai",
+      "preferences": "Animation",
+      "findus": "From A Friend",
+      "lookingfor": "Internships",
+      "affiliate": "sagar",
+      "createdAt": 1671359748294,
+      "id": 6
     }
   ]
 }

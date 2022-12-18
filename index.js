@@ -34,3 +34,11 @@ function showSlides() {
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 // slider js end here 
+
+
+let loginbtn=document.querySelector(".signinbut");
+
+
+loginbtn.addEventListener("click",()=> {
+  window.location.href= "Student-Login.html"
+});
