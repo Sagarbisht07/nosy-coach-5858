@@ -267,3 +267,20 @@ a {
   color: #087cdd;
 }
 /* --------------CONTAINER END--------- */
+/* <!-- List of  Foter start  here --> */
+
+.foter{
+  margin-top: 3rem;;
+  width: 102%;
+  margin-left: -1rem;
+  padding: 2rem;
+background-color: rgb(68, 100, 120);
+
+}
+.foter img{
+  width: 90%;
+  margin-left: 3rem;
+  margin-top: 1rem;
+
+}
+/* <!-- List of  Foter end here --> */

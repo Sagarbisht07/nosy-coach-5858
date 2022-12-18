@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADD TO CART</title>
+    <link rel="stylesheet" href="./Addtocart.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'></link>  
+</head>
+<body>
+     <!-- nev bar start here -->
+     <nav>
+        <div id="mini-navbar">
+    
+            <div class="listmenu">
+                <i class='fa-solid fa-bars' id="cart-icon"></i> 
+                <div class="cart list">
+                    <i class='fa-solid fa-bars' id="close-cart" ></i>
+    
+                    <img class="logo2" src="https://assets.interntheory.com/creative/logo.png" alt="Internships for student">
+                   <br>
+                     <!-- nev bar menu start here --> 
+    
+                    <div class="menulist"> <br><br><br><br>
+                        <div class="menulist1">
+                        <i class="uil uil-house-user"></i>
+                       <a href="index.html" class="menuoption">Home</a>
+                    </div><br>
+    
+                    <div class="menulist2">
+                        <i class="uil uil-graduation-cap"></i>
+                       <a href="" class="menuoption">Internships</a>
+                    </div> <br>
+                  
+                    <div class="menulist2">
+                        <i class="uil uil-briefcase-alt"></i>
+                       <a href="jobs.html" class="menuoption">Jobs</a>
+                    </div> <br>
+    
+                    <div class="menulist2">
+                        <i class="uil uil-books"></i>
+                       <a href="" class="menuoption">Post Internship</a>
+                    </div> <br>
+    
+                    <div class="menulist2">
+                        <i class="uil uil-book-open"></i>
+                       <a href="course.html" class="menuoption">Courses</a>
+                    </div>  <br>
+    
+                    <div class="menulist2">
+                        <i class="uil uil-phone-volume"></i>
+                       <a href="contact.html" class="menuoption"> Contact Us</a>
+                    </div> <br> 
+                    <hr class="hr">
+                    <div class="menulist2">
+                        <i class="uil uil-window"></i>
+                       <a href="" class="menuoption"> Register</a>
+                    </div> <br>
+    
+                    <div class="menulist2">
+                        <i class="uil uil-signin"></i>
+                       <a href="" class="menuoption"> Login</a>
+                    </div> <br>
+                    
+                </div>
+                
+            </div>
+            <!-- nev bar menu End here --> 
+            
+            
+                <div class="logo">
+                    <a href="index.html"><img src="https://assets.interntheory.com/creative/logo.png" alt="sitelogo"></a>
+                </div>
+           
+            <div class="right">
+                <div class="materialsIcon">
+                  
+                        <br>
+                    </a>
+                        <button class="signinbut">SIGN&nbsp;IN</button>
+                    
+                </div>
+                <div>
+                   
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- nev bar end here -->
+    <br>  <br>  <br>
+    <div class="check_email_mobile">
+        <div class="button_email_number">
+            <p class="email_number">
+                Please Click here to
+                <button class="button_email",tabindex="0",type="button">
+                VERIFY EMAIL
+                </button> 
+                &
+                click here to
+                <button class="button_number",tabindex="0",type="button">
+                VERIFY NUMBER
+                </button>
+            </p>
+        </div>
+       </div> <br>
+    <div class="display_addtocart_item">
+        <div class="leftdiv">
+            <i class="uil uil-times-circle "></i>
+        </div>
+        <hr>
+       <div class="rightdiv">
+        <input type="number" placeholder="Amount">&#8377 15999 <br>
+        <hr width="55%">
+        <input type="number" placeholder="CGST 9%">&#8377 540 <br>
+        <hr width="55%">
+        <input type="number" placeholder="SGST 9%">&#8377 540 <br>
+        <hr width="55%">
+        TOTAL:<div class="total">&#8377 17079</div> <br>
+        <input type="text" placeholder="Coupon Code" class="coupon"> <button class="go">GO</button><br><button class="check">CHECKOUT</button>
+       </div>
+    </div> <br> <br>
+
+    <div class="foter">
+        <img src="fotter.png" alt="fotter">
+    </div>
+</body>
+</html>
+<script>
+    let cartIcon= document.querySelector("#cart-icon");
+let cart= document.querySelector(".cart");
+let closecart= document.querySelector("#close-cart");
+
+// open cart
+cartIcon.onclick=()=>{
+    cart.classList.add("active");
+};
+ 
+// closecart
+
+closecart.onclick=()=>{
+    cart.classList.remove("active");
+};
+</script>
+<script src="Addtocart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>  

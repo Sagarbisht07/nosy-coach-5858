@@ -1,0 +1,306 @@
+/* menu start here */
+:root{
+  --main-color:#fd4646;
+  --text-color:#171427;
+  --bg-color:#fff;
+}
+#cart-icon{
+ font-size: 1.8rem;
+  cursor: pointer;
+  transition: 0.3s;
+  color:rgb(0, 0, 0)
+}
+/* cart */
+.cart{
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 360px;
+  min-height: 100vh;
+  padding: 20px;
+  background:#fff;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  transition: 0.3s;
+ 
+
+
+}
+
+.cart.active{
+  left: 0;
+  
+}
+#close-cart{
+
+
+ right: 0.8rem;
+ font-size: 2rem;
+ color:#171427;
+ cursor: pointer;
+ padding: 0.2rem;
+ transition: 0.3s;
+
+}
+
+/* menu end here */
+
+#mini-navbar {
+  top: 0;
+  position: fixed;
+  height: 4.5rem;
+  width: 103%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  margin-left: -1rem;
+  margin-right: 1rem;
+  
+ 
+}
+#mini-navbar > div {
+  /* height: 100%; */
+  width: 15%;
+ 
+}
+.listmenu{
+  padding: 20px;
+    background-color: #fff;
+    color: #fff;
+
+}
+.logo2{
+  width: 40%;
+ height: 3.4rem;
+ 
+}
+.list{
+  display: flex; 
+  gap: 2rem;
+ 
+}
+
+.logo img {
+  width: 46%;
+
+  margin-left: 4rem;
+  margin-top: -11.5rem;
+}
+.right {
+  display: flex;
+  margin-left: 93rem; 
+  
+}
+.right a {
+  color: black;
+    margin-top: -4.2rem; 
+    margin-left: -11rem; 
+}
+.right > div {
+  width: 50%;
+  height: 100%;
+}
+.signinbut {
+  display: block;
+  margin: auto;
+  color: #fff;
+  background-color: #df1e2e;
+  box-shadow: 0px 1px 5px 0px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%),
+    0px 3px 1px -2px rgb(0 0 0 / 12%);
+  padding: 6px 25px;
+  font-size: 0.875rem;
+  min-width: 69px;
+  box-sizing: border-box;
+
+  line-height: 1.75;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  border-radius: 4px;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  border: none;
+  margin-top: -3.5rem;
+  margin-left: -9rem;
+  
+}
+.signinbut:hover {
+  cursor: pointer;
+  background-color: #9b1f29;
+}
+.materialsIcon {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+  margin-left: 2rem;
+  
+}
+.materialsIcon:hover {
+  background-color: rgb(237, 234, 234);
+  border-radius: 100%;
+}
+/* <!-- nev bar menu start here --> */
+
+.menulist{
+  margin-left: -16rem;
+  
+ }
+ 
+ .menulist i{
+   font-size: 2rem;
+   margin-left: -1.2rem;
+   color: rgb(68, 100, 120);
+   padding-right:2rem ;
+ }
+ 
+ .menuoption{
+   font-size: 1.5rem;
+   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+   text-decoration: none;
+   color: #171427;
+   font-weight: 600;
+ }
+ .hr{
+   height: 2px;
+  margin-left: -3rem;
+  width: 163%;
+ }
+ 
+ /* <!-- nev bar menu start here --> */
+  
+  .check_email_mobile{
+    height: 30px;
+    width: 103%;
+    margin-left: -1rem;
+    border: 1px solid red;
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding-bottom: 10px;
+  }
+  .button_email{
+    border: none;
+    background-color: red;
+    color: white;
+  }
+  .button_number{
+    border: none;
+    background-color: red;
+    color: white;
+  }
+.display_addtocart_item{
+    height: 310px;
+    width: 60%;
+    border: 1px solid white;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 1rem;
+}
+
+.display_addtocart_item div img{
+    height: 100px;
+    width: auto;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.display_addtocart_item .rightdiv{
+    height: 300px;
+    width: 40%;
+    border: 1px solid white;
+    text-align: center;
+}
+.display_addtocart_item .leftdiv{
+    height: 300px;
+    width: 60%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.display_addtocart_item .leftdiv img{
+margin-top: 20px;
+
+}
+.display_addtocart_item .leftdiv h4{
+    margin-top: 80px;
+    
+}
+ .display_addtocart_item .leftdiv p{
+        margin-top: 100px;
+        
+ }
+.display_addtocart_item .rightdiv input{
+            gap: 5px;
+            margin: auto;
+            border: 1px;
+            margin-top: 20px;
+          
+          }
+
+  button{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+  }
+  .button_email:hover {
+    cursor: pointer;
+    color:white;
+  }
+  .button_number:hover{
+    cursor: pointer;
+    color: white;
+  }
+  .check{
+    margin-top: 10px;
+    margin-bottom: 4rem;
+    width: 40%;
+   
+  }
+  .display_addtocart_item .rightdiv .coupon{
+  border: 1px solid black;
+  border-radius: 5px;
+  
+  }
+i{
+  color: red;
+  margin-top: 10px;
+  size:20px;
+}
+i:hover{
+  cursor: pointer;
+  color: red;
+}
+/* <!-- List of  Foter start  here --> */
+
+.foter{
+margin-top: 2rem;
+  width: 102%;
+  margin-left: -1rem;
+ 
+background-color: rgb(68, 100, 120);
+
+}
+.foter img{
+  width: 90%;
+  margin-left: 3rem;
+  margin-top: 1rem;
+
+}
+/* <!-- List of  Foter end here --> */
+.leftdiv{
+  margin-top: 3.5rem;
+}

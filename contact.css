@@ -1,4 +1,5 @@
 
+
 /* menu start here */
 :root{
   --main-color:#fd4646;
@@ -83,7 +84,8 @@
   width: 46%;
   /* margin: -5rem; */
   margin-left: 4rem;
-  margin-top: -12rem;
+  margin-top: -18.5rem;
+  height: 3rem;
 }
 .right {
   display: flex;
@@ -150,6 +152,8 @@
 }
 /* <!-- nev bar menu start here --> */
 
+
+
 .menulist{
   margin-left: -15rem;
   
@@ -157,7 +161,7 @@
  
  .menulist i{
    font-size: 2rem;
-   margin-left: -1.2rem;
+   margin-left: -2.1rem;
    color: rgb(68, 100, 120);
    padding-right:2rem ;
  }
@@ -172,124 +176,87 @@
  .hr{
    height: 2px;
   margin-left: -3rem;
-  width: 163%;
+  width: 180%;
  }
  
  /* <!-- nev bar menu start here --> */
 /* --------------------- NAV-END --------------- */
 
-/* --------------CONTAINER START--------- */
-
-#container {
-  height: auto;
-  width: 82%;
+/* --------------------- MAIN-START --------------- */
+#main {
+  height: 550px;
+  width: 80%;
   /* border: 1px solid black; */
   margin: auto;
-  margin-top: 20px;
+  margin-top: 22px;
   display: flex;
-  justify-content: space-evenly;
-  gap: 15px;
 }
-#container > .leftCont {
-  width: 25%;
-  height: auto;
+#main > div {
+  width: 50%;
+
   /* border: 1px solid red; */
 }
-#container > .rightCont {
-  width: 71%;
+#gmap {
   height: 100%;
-  /* border: 1px solid red; */
-  display: block;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  padding: 0px 30px 30px 30px;
 }
-.rightCont > div {
+#contact {
+  padding: 0px 30px;
+  height: 700px;
+}
+#contact > input {
+  /* display: block;
+  */
+  font: inherit;
+  color: currentColor;
   width: 100%;
-  /* border: 1px solid black; */
-}
-.rightCont > img {
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-.jobtitle {
-  color: rgba(0, 0, 0, 0.87);
-  font-size: 1.5rem;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  font-weight: 400;
-  line-height: 1.33;
-  letter-spacing: 0em;
-  padding-left: 35px;
-
-}
-.rightCont > div:nth-child(1) {
-  height: 6%;
-}
-.rightCont > div:nth-child(2) {
-  height: 80%;
-}
-.card {
-  display: flex;
-  justify-content: space-between;
-}
-.card-left-image {
-  /* border: 1px solid brown; */
-  padding: 25px 0px 0px 10px;
-}
-.card-info {
-  /* border: 1px solid #9b1f29; */
-  padding: 10px 0px 0px 15px;
-}
-.card-info > h5 {
-  color: #3c4858;
+  border: 0;
+  border-bottom: 1px solid grey;
+  margin: 0;
+  padding: 6px 0 7px;
+  padding-left: 5px;
+  display: block;
+  min-width: 0;
+  box-sizing: content-box;
+  background: none;
+  -webkit-tap-highlight-color: transparent;
+  margin-top: 35px;
   font-size: 20px;
+  font-weight: 180;
+}
+#contact > .mes {
+  padding-bottom: 35px;
+  margin-top: 50px;
+}
+#contact > h1 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 3rem;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-weight: 400;
-  line-height: 1.6;
-  letter-spacing: 0.0075em;
+  line-height: 1.04;
+  letter-spacing: 0em;
 }
-.cardList {
-  /* border: 1px solid red; */
-  margin-top: -60px;
-}
-.jobtitle > h5 {
+#contact > p {
   color: #3c4858;
-  font-size: 25px;
+  font-size: 1rem;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  font-weight: 400;
-  line-height: 1.6;
-  letter-spacing: 0.0075em;
-  margin-left: -30px;
-}
-.card-info > p {
-  color: rgba(0, 0, 0, 0.54);
-  font-size: 0.875rem;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  font-weight: 400;
+  font-weight: 330;
   line-height: 1.5;
-  letter-spacing: 0.01071em;
+  letter-spacing: 0.00938em;
+  /* margin-top: -27px; */
 }
-.card-left {
-  display: flex;
-}
-.card-right {
-  width: auto;
-  /* height: 50px;  */
-  /* border: 1px solid black; */
-  line-height: 30px;
-  padding-right: 20px;
-  display: flex;
-  flex-direction: column;
-  text-align: right;
-}
-.upgradebut {
+#contact > button {
   display: block;
   margin: auto;
-  color: #087cdd;
-  background-color: white;
-
+  margin-top: 40px;
+  color: #fff;
+  background-color: #df1e2e;
+  box-shadow: 0px 1px 5px 0px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%),
+    0px 3px 1px -2px rgb(0 0 0 / 12%);
   padding: 6px 16px;
   font-size: 0.875rem;
   min-width: 64px;
   box-sizing: border-box;
+
   line-height: 1.75;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-weight: 500;
@@ -297,46 +264,59 @@
   letter-spacing: 0.02857em;
   text-transform: uppercase;
   border: none;
-  margin-top: 8px;
-  margin-left: -18px;
 }
-.upgradebut:hover {
-  background-color: #e7f2fb;
+#contact > button:hover {
   cursor: pointer;
+  background-color: #9b1f29;
 }
-.sharing-logo {
-  /* border: 1px solid red; */
-  width: 42px;
-  /* height: 45px; */
-  border-radius: 50%;
+#bot_cont {
+  width: 100%;
+  height: 100px;
+  /* border: 1px solid black; */
+  margin-top: 40px;
+  display: block;
+}
+#bot_cont > div {
+  margin: auto;
   text-align: center;
-  margin-left: 740px;
-  color: rgb(135, 133, 133);
-  padding: 24px 20px;
+  /* line-height: 7px; */
 }
-
-.sharing-logo:hover {
-  background-color: rgb(234, 230, 230);
-  cursor: pointer;
+#bot_cont > .links {
+  width: 100%;
+  height: 30%;
+  /* border: 1px solid blue; */
 }
-
-.shareLogos {
-  width: 20px;
-}
-.hidden-links {
+.links {
   display: flex;
-  gap: 5px;
-  padding-top: 7px;
+  margin: auto;
+  justify-content: center;
 }
-a {
-  text-decoration: none;
-  color: #087cdd;
+.links div img {
+  height: 100%;
+  padding: 0px 4px;
 }
-/* --------------CONTAINER END--------- */
+.call {
+  color: #3c4858;
+  font-size: 0.875rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.01071em;
+}
+#gmap {
+  padding: 15px;
+}
+
+/* ---------------------MAIN-OVER-------------------------- */
+
+
+
 /* <!-- List of  Foter start  here --> */
 
 .foter{
+  margin-top: 13rem;
   width: 102%;
+  height: 20rem;
   margin-left: -1rem;
   padding: 2rem;
 background-color: rgb(68, 100, 120);
