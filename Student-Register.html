@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles\Student-Register.css">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+ <!-- nev bar start here -->
+ <nav>
+    <div id="mini-navbar">
+
+        <div class="listmenu">
+            <i class='fa-solid fa-bars' id="cart-icon"></i> 
+            <div class="cart list">
+                <i class='fa-solid fa-bars' id="close-cart" ></i>
+
+                <img class="logo2" src="https://assets.interntheory.com/creative/logo.png" alt="Internships for student">
+               <br>
+                 <!-- nev bar menu start here --> 
+
+                <div class="menulist"> <br><br><br><br>
+                    <div class="menulist1">
+                    <i class="uil uil-house-user"></i>
+                   <a href="index.html" class="menuoption">Home</a>
+                </div><br>
+
+                <div class="menulist2">
+                    <i class="uil uil-graduation-cap"></i>
+                   <a href="inter.html" class="menuoption">Internships</a>
+                </div> <br>
+              
+                <div class="menulist2">
+                    <i class="uil uil-briefcase-alt"></i>
+                   <a href="jobs.html" class="menuoption">Jobs</a>
+                </div> <br>
+
+                <div class="menulist2">
+                    <i class="uil uil-books"></i>
+                   <a href="" class="menuoption">Post Internship</a>
+                </div> <br>
+
+                <div class="menulist2">
+                    <i class="uil uil-book-open"></i>
+                   <a href="course.html" class="menuoption">Courses</a>
+                </div>  <br>
+
+                <div class="menulist2">
+                    <i class="uil uil-phone-volume"></i>
+                   <a href="contact.html" class="menuoption"> Contact Us</a>
+                </div> <br> 
+                <hr class="hr">
+                <div class="menulist2">
+                    <i class="uil uil-window"></i>
+                   <a href="Student-Register.html" class="menuoption"> Register</a>
+                </div> <br>
+
+                <div class="menulist2">
+                    <i class="uil uil-signin"></i>
+                   <a href="Student-Login.html" class="menuoption"> Login</a>
+                </div> <br>
+                
+            </div>
+            
+        </div>
+        <!-- nev bar menu End here --> 
+        
+        
+            <div class="logo">
+                <a href=""><img src="https://assets.interntheory.com/creative/logo.png" alt="sitelogo"></a>
+            </div>
+       
+        <div class="right">
+            <div class="materialsIcon">
+                <a href="Addtocart.html">  <i class="fa-solid fa-cart-shopping"></i>
+                    <br>
+                </a>
+                    <button class="signinbut">SIGN&nbsp;IN</button>
+                
+            </div>
+            <div>
+               
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- nev bar end here -->
+
+
+
+
+
+
+    <div class="container">
+        <div class="container-bgimg">
+            <div class="register-box">
+                <div class="register-top">
+                    <h5>Register Candidate</h5>
+                    <h6>
+                        Already have an account?
+                        <a href="Student-Login.html">
+                            Sign in
+                        </a>
+                    </h6>
+                    <div class="register-tohire">
+                        <p>
+                            If you are a company looking to hire interns, please register as a company by clicking 
+                            <a href="login-student">
+                                here
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div id="login-social">
+                    <img src="https://www.interntheory.com/assets/iconsLogos/facebook-circular-logo.svg" alt="">
+                        <a class="a">Register with FacebooK</a>
+                </div>
+                <div id="login-social-sec">
+                    <img src="https://www.interntheory.com/assets/iconsLogos/googlelogo.svg" alt="">
+                        <a class="a">Register with Google</a>
+                </div> 
+                <div id="or">
+                    OR
+                </div>
+                <div class="form signup">
+                    <form>
+                        <div class="input-field">
+                            <input id="firstname" name="usersignup" required="" type="text" placeholder="Enter First Name" oninvalid="this.setCustomValidity('Required')" oninput="setCustomValidity('')">
+                        </div>
+                        <div class="input-field">
+                            <input  id="lastname"name="usersignup" required="" type="text" placeholder="Enter Last Name" oninvalid="this.setCustomValidity('Required')" oninput="setCustomValidity('')">
+                        </div>
+                        <div class="input-field">
+                            <input id="email" name="usersignup" required="" type="email" placeholder="Enter Email" oninvalid="this.setCustomValidity('Required')" oninput="setCustomValidity('')">
+                        </div>
+                        <div class="input-field">
+                            <input id="password" name="usersignup" required="" type="password" placeholder="Enter Password" oninvalid="this.setCustomValidity('Required')" oninput="setCustomValidity('')">
+                        </div>
+                        <div class="input-field">
+                            <input id="mobilenumber" name="userpasssignup" required="" type="number" placeholder="Enter Mobile Number" oninvalid="this.setCustomValidity('Required')" oninput="setCustomValidity('')">
+                        </div>
+                        <div class="input-field">
+                            <select name="cities" class="select-css" id="cityname" required>
+                                <option value="">Select city</option>
+                                <option value="Mumbai">Mumbai</option>
+                                <option value="Bengaluru">Bengaluru</option>
+                                <option value="Delhi">Delhi</option>
+                                <option value="Kolkata">KolKata</option>
+                                <option value="Chennai">Chennai</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                            <select name="industry" class="select-css" id="preferences" required>
+                                <option value="">Preferences Select one *</option>
+                                <option value="Adversting">Adversting</option>
+                                <option value="Animation">Animation</option>
+                                <option value="Bussiness Development">Bussiness Development</option>
+                                <option value="Content Writing">Content Writing</option>
+                                <option value="Graphic Desigining">Graphic Desigining</option>
+                                <option value="Others">Others</option>
+                                <option value="Software Development">Software Development</option>
+                                <option value="Web Design And Development">Web Design And Development</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                            <select name="findus" class="select-css" id="network" required>
+                                <option value="">How did you find us? *</option>
+                                <option value="From A Friend">From A Friend</option>
+                                <option value="Google Search Result">Google Search Result</option>
+                                <option value="Google Ads">Google Ads</option>
+                                <option value="Bing/Yahoo Search Result">Bing/Yahoo Search Result</option>
+                                <option value="Social Media">Social Media</option>
+                                <option value="Others">Others</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                            <select name="lookingfor" class="select-css" id="jobsintern" required>
+                                <option value="">What are you looking for? *</option>
+                                <option value="Internships">Internships</option>
+                                <option value="Jobs">Jobs</option>
+                                <option value="Both">Both</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                            <input id="affiliate" name="usersignup" required="" type="text" placeholder="Affiliate Code(if any)">
+                        </div>
+                        <div class="input-field submit">
+                            <input type="submit" value="next">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="foter">
+        <img src="fotter.png" alt="fotter">
+    </div>
+
+</body>
+</html>
+<script>
+    let cartIcon= document.querySelector("#cart-icon");
+let cart= document.querySelector(".cart");
+let closecart= document.querySelector("#close-cart");
+
+// open cart
+cartIcon.onclick=()=>{
+    cart.classList.add("active");
+};
+ 
+// closecart
+
+closecart.onclick=()=>{
+    cart.classList.remove("active");
+};
+
+</script>
+
+<script src="Student-Register.js" type="module"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>

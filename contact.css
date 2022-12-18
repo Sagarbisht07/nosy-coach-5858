@@ -1,0 +1,331 @@
+
+
+/* menu start here */
+:root{
+  --main-color:#fd4646;
+  --text-color:#171427;
+  --bg-color:#fff;
+}
+#cart-icon{
+ font-size: 1.8rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+/* cart */
+.cart{
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 360px;
+  min-height: 100vh;
+  padding: 20px;
+  background:#fff;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  transition: 0.3s;
+ 
+
+
+}
+
+.cart.active{
+  left: 0;
+  
+}
+#close-cart{
+
+
+ right: 0.8rem;
+ font-size: 2rem;
+ color:#171427;
+ cursor: pointer;
+ padding: 0.2rem;
+ transition: 0.3s;
+
+}
+
+/* menu end here */
+
+#mini-navbar {
+  top: 0;
+  position: fixed;
+  height: 4.5rem;
+  width: 103%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  margin-left: -1rem;
+  margin-right: 1rem;
+  
+ 
+}
+#mini-navbar > div {
+  /* height: 100%; */
+  width: 15%;
+ 
+}
+.listmenu{
+  padding: 20px;
+    background-color: #fff;
+
+}
+.logo2{
+  width: 40%;
+ height: 3.4rem;
+ 
+}
+.list{
+  display: flex; 
+  gap: 2rem;
+ 
+}
+
+.logo img {
+  width: 46%;
+  /* margin: -5rem; */
+  margin-left: 4rem;
+  margin-top: -18.5rem;
+  height: 3rem;
+}
+.right {
+  display: flex;
+  margin-left: 93rem; 
+  
+}
+.right a {
+  color: black;
+    margin-top: -4.2rem; 
+    margin-left: -11rem; 
+}
+.right > div {
+  width: 50%;
+  height: 100%;
+}
+.signinbut {
+  display: block;
+  margin: auto;
+  color: #fff;
+  background-color: #df1e2e;
+  box-shadow: 0px 1px 5px 0px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%),
+    0px 3px 1px -2px rgb(0 0 0 / 12%);
+  padding: 6px 25px;
+  font-size: 0.875rem;
+  min-width: 69px;
+  box-sizing: border-box;
+
+  line-height: 1.75;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  border-radius: 4px;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  border: none;
+  margin-top: -3.5rem;
+  
+}
+.signinbut:hover {
+  cursor: pointer;
+  background-color: #9b1f29;
+}
+.materialsIcon {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+  margin-left: 2rem;
+  
+}
+.materialsIcon:hover {
+  background-color: rgb(237, 234, 234);
+  border-radius: 100%;
+}
+/* <!-- nev bar menu start here --> */
+
+
+
+.menulist{
+  margin-left: -15rem;
+  
+ }
+ 
+ .menulist i{
+   font-size: 2rem;
+   margin-left: -2.1rem;
+   color: rgb(68, 100, 120);
+   padding-right:2rem ;
+ }
+ 
+ .menuoption{
+   font-size: 1.5rem;
+   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+   text-decoration: none;
+   color: #171427;
+   font-weight: 600;
+ }
+ .hr{
+   height: 2px;
+  margin-left: -3rem;
+  width: 180%;
+ }
+ 
+ /* <!-- nev bar menu start here --> */
+/* --------------------- NAV-END --------------- */
+
+/* --------------------- MAIN-START --------------- */
+#main {
+  height: 550px;
+  width: 80%;
+  /* border: 1px solid black; */
+  margin: auto;
+  margin-top: 22px;
+  display: flex;
+}
+#main > div {
+  width: 50%;
+
+  /* border: 1px solid red; */
+}
+#gmap {
+  height: 100%;
+}
+#contact {
+  padding: 0px 30px;
+  height: 700px;
+}
+#contact > input {
+  /* display: block;
+  */
+  font: inherit;
+  color: currentColor;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid grey;
+  margin: 0;
+  padding: 6px 0 7px;
+  padding-left: 5px;
+  display: block;
+  min-width: 0;
+  box-sizing: content-box;
+  background: none;
+  -webkit-tap-highlight-color: transparent;
+  margin-top: 35px;
+  font-size: 20px;
+  font-weight: 180;
+}
+#contact > .mes {
+  padding-bottom: 35px;
+  margin-top: 50px;
+}
+#contact > h1 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 3rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.04;
+  letter-spacing: 0em;
+}
+#contact > p {
+  color: #3c4858;
+  font-size: 1rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 330;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  /* margin-top: -27px; */
+}
+#contact > button {
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  color: #fff;
+  background-color: #df1e2e;
+  box-shadow: 0px 1px 5px 0px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%),
+    0px 3px 1px -2px rgb(0 0 0 / 12%);
+  padding: 6px 16px;
+  font-size: 0.875rem;
+  min-width: 64px;
+  box-sizing: border-box;
+
+  line-height: 1.75;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  border-radius: 4px;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  border: none;
+}
+#contact > button:hover {
+  cursor: pointer;
+  background-color: #9b1f29;
+}
+#bot_cont {
+  width: 100%;
+  height: 100px;
+  /* border: 1px solid black; */
+  margin-top: 40px;
+  display: block;
+}
+#bot_cont > div {
+  margin: auto;
+  text-align: center;
+  /* line-height: 7px; */
+}
+#bot_cont > .links {
+  width: 100%;
+  height: 30%;
+  /* border: 1px solid blue; */
+}
+.links {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+.links div img {
+  height: 100%;
+  padding: 0px 4px;
+}
+.call {
+  color: #3c4858;
+  font-size: 0.875rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.01071em;
+}
+#gmap {
+  padding: 15px;
+}
+
+/* ---------------------MAIN-OVER-------------------------- */
+
+
+
+/* <!-- List of  Foter start  here --> */
+
+.foter{
+  margin-top: 13rem;
+  width: 102%;
+  height: 20rem;
+  margin-left: -1rem;
+  padding: 2rem;
+background-color: rgb(68, 100, 120);
+
+}
+.foter img{
+  width: 90%;
+  margin-left: 3rem;
+  margin-top: 1rem;
+
+}
+/* <!-- List of  Foter end here --> */
